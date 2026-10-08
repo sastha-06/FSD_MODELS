@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+h1 {
+    font-size: large;
+}
+
+header {
+    font-size: medium;
+    font-style: italic;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    font-size: medium;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+a {
+    color: purple;
+}

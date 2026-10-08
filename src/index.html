@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Job Application Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Job Application Form</h1>
+
+    <header>
+        <h2>Applicant Details</h2>
+    </header>
+
+    <main>
+
+        <form onsubmit="return validateForm()">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone">
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+
+            <br><br>
+
+            <label for="qualification">Qualification:</label>
+            <select id="qualification">
+
+                <option value="">Select Qualification</option>
+
+                <optgroup label="UG">
+                    <option>B.Tech</option>
+                    <option>B.E</option>
+                    <option>B.Sc</option>
+                </optgroup>
+
+                <optgroup label="PG">
+                    <option>M.Tech</option>
+                    <option>M.E</option>
+                    <option>M.Sc</option>
+                </optgroup>
+
+            </select>
+
+            <br><br>
+
+            <label for="technicalSkill">Technical Skill:</label>
+            <select id="technicalSkill">
+
+                <option value="">Select Technical Skill</option>
+
+                <optgroup label="Programming">
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>C</option>
+                </optgroup>
+
+                <optgroup label="Database">
+                    <option>SQL</option>
+                    <option>MongoDB</option>
+                </optgroup>
+
+            </select>
+
+            <br><br>
+
+            <label for="softSkill">Soft Skill:</label>
+            <select id="softSkill">
+
+                <option value="">Select Soft Skill</option>
+
+                <optgroup label="Communication">
+                    <option>Communication</option>
+                    <option>Presentation</option>
+                </optgroup>
+
+                <optgroup label="Teamwork">
+                    <option>Teamwork</option>
+                    <option>Leadership</option>
+                </optgroup>
+
+            </select>
+
+            <br><br>
+
+            <label for="experience">Experience:</label>
+            <select id="experience">
+
+                <option value="">Select Experience</option>
+
+                <optgroup label="Experience">
+                    <option>Fresher</option>
+                    <option>1-2 Years</option>
+                    <option>3-5 Years</option>
+                </optgroup>
+
+            </select>
+
+            <br><br>
+
+            <label for="position">Position Applied:</label>
+            <select id="position">
+
+                <option value="">Select Position</option>
+
+                <optgroup label="Technical">
+                    <option>Data Analyst</option>
+                    <option>Software Developer</option>
+                    <option>Web Developer</option>
+                </optgroup>
+
+                <optgroup label="Management">
+                    <option>Business Analyst</option>
+                    <option>Project Manager</option>
+                </optgroup>
+
+            </select>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
